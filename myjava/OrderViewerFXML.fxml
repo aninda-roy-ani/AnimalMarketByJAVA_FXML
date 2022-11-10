@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="435.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="myjava.OrderViewerFXMLController">
+   <children>
+      <TableView fx:id="ordersTable" editable="true" fixedCellSize="0.0" layoutX="39.0" layoutY="118.0" prefHeight="200.0" prefWidth="539.0" style="-fx-border-color: black;">
+        <columns>
+          <TableColumn fx:id="pID" prefWidth="93.0" text="Product ID" />
+          <TableColumn fx:id="pName" prefWidth="130.0" text="Product Name" />
+            <TableColumn fx:id="pNum" minWidth="5.0" prefWidth="104.0" text="No of Products" />
+            <TableColumn fx:id="lastDate" prefWidth="116.0" text="Last Date" />
+            <TableColumn fx:id="orderer" prefWidth="94.0" text="Orderer ID" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
