@@ -1,0 +1,5 @@
+Messi,cow,black,60000,120
+Jamal,goat,black,8000,15
+Komol,Cow,Brown,85000,80
+Hashem,Goat,white,12000,20
+Doggy,dog,brown,16000,25
